@@ -6,12 +6,12 @@ The primary structure that I projected to the Timeline app is as the following i
 
 Each rectangle refers to a component:
 
-- Red/Salmon - `timeline_container`
-- Green - `timeline_action_header`
-- Dark Blue - `timeline_events_container`
-- Yellow - `timeline_dates_header`
-- Cyan - `timeline_date`
-- Black - `timeline_events_badges_container`
-- Purple - `timeline_event_badge`
+- Red/Salmon - `timeline-container`, which will be our `App` component.
+- Green - `action-header`
+- Dark Blue - `timeline-content`
+- Yellow - `dates-header`
+- Cyan - `date`
+- Black - `events-container`
+- Purple - `event`
 
 The purple rectangles are there also to demonstrate possible renderings of the event badges.
