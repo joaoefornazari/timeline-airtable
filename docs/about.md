@@ -1,3 +1,7 @@
+# Disclaimers
+
+1. Parcel version was changed to 2.13.3 due to the following error that happened to me: "Error: Cannot find module '@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js'" Based on this resource [here](https://github.com/parcel-bundler/parcel/issues/10115), I found out that changing it to 2.13.3 would fix it. They also said that removing the "main" section of `package.json` would work as well - but since our `package.json` does not have a "main" section, I decided to update Parcel version only.
+
 # Prototyping
 
 The primary structure that I projected to the Timeline app is as the following image displays:
