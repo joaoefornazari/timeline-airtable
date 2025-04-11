@@ -1,5 +1,7 @@
 # Disclaimers
 
+## The project is not working due to a bug on [fetchEvents.js](../src/timeline-content/dates-header/fetchEvents.js). I did not get to fix it before finishing.
+
 1. Parcel version was changed to 2.13.3 due to the following error that happened to me: "Error: Cannot find module '@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js'" Based on this resource [here](https://github.com/parcel-bundler/parcel/issues/10115), I found out that changing it to 2.13.3 would fix it. They also said that removing the "main" section of `package.json` would work as well - but since our `package.json` does not have a "main" section, I decided to update Parcel version only.
 
 2. I would like to finish this project, but 4 hours was not enough for me. I tried to do the project by hand and I did not use any template. I think this might have slowed me down.
