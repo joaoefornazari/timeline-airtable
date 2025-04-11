@@ -5,8 +5,7 @@ import timelineItems from "./timelineItems.js";
 function App() {
   return (
     <div>
-      <h2>Good luck with your assignment! {"\u2728"}</h2>
-      <h3>{timelineItems.length} timeline items to render</h3>
+      <h2>Good luck, pal.</h2>
     </div>
   );
 }
