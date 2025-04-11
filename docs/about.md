@@ -30,3 +30,8 @@ The project architecture will follow the component hierarchy displayed at the im
 
 I will not be using `Diretory/index.js` style to avoid confusion when opening multiple files in the IDE.
 
+# Styles
+
+- **Font Awesome v5** is used on UI to provide beautiful and consistent icons.
+- `app.css` will hold styles that are applicable universally.
+- Every component will have its own style file `<component-name>.css`, stored in the same diretory as the component itself, to better organize files across the app and keeping maintainance simple.
