@@ -13,9 +13,8 @@ Each rectangle refers to a component:
 - Red/Salmon - `timeline-container`, which will be our `App` component.
 - Green - `action-header`
 - Dark Blue - `timeline-content`
-- Yellow - `dates-header`
+- Yellow - `dates-list`
 - Cyan - `date`
-- Black - `events-container`
 - Purple - `event`
 
 The purple rectangles are there also to demonstrate possible renderings of the event badges.
