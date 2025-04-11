@@ -1,4 +1,5 @@
 import DatesList from './dates-header/DatesList'
+import './TimelineContent.css'
 
 function TimelineContent() {
 	return (
