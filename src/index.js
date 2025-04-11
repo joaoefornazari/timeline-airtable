@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import timelineItems from "./timelineItems.js";
+import ActionHeader from './action-header/ActionHeader';
+import TimelineContent from './timeline-content/TimelineContent';
 
 function App() {
-  return (
-    <div>
-      <h2>Good luck, pal.</h2>
-    </div>
-  );
+	return (
+		<main>
+			<ActionHeader />
+			<TimelineContent />
+		</main>
+	);
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
