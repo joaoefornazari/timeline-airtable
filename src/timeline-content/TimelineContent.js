@@ -1,11 +1,9 @@
-import DatesHeader from './dates-header/DatesHeader'
-import EventsContainer from './events-container/EventsContainer'
+import DatesList from './dates-header/DatesList'
 
 function TimelineContent() {
 	return (
 		<section>
-			<DatesHeader />
-			<EventsContainer />
+			<DatesList />
 		</section>
 	);
 }
