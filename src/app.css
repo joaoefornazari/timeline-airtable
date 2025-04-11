@@ -10,3 +10,13 @@ body {
 button:hover {
   cursor: pointer
 }
+
+.root {
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  gap: 1rem;
+  width: 100%;
+  height: calc(100vh - 4rem);
+}
+
