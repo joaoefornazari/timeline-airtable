@@ -9,4 +9,5 @@ header {
 	align-items: center;
 	justify-content: end;
 	gap: .5rem;
+  width: 100%;
 }
