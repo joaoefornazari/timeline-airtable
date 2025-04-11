@@ -5,7 +5,7 @@ import TimelineContent from './timeline-content/TimelineContent';
 
 function App() {
 	return (
-		<main>
+		<main className="root">
 			<ActionHeader />
 			<TimelineContent />
 		</main>
