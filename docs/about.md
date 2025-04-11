@@ -15,3 +15,14 @@ Each rectangle refers to a component:
 - Purple - `event`
 
 The purple rectangles are there also to demonstrate possible renderings of the event badges.
+
+The project architecture will follow the component hierarchy displayed at the image, so the architecture follows the visual structure seen on the web page.
+
+**Naming conventions:**
+
+- Diretories - `kebab-case`
+- Components - `PascalCase`
+- Files in general (except Components) - `camelCase`
+
+I will not be using `Diretory/index.js` style to avoid confusion when opening multiple files in the IDE.
+
